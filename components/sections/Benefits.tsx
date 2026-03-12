@@ -31,27 +31,27 @@ const benefits = [
 
 export function Benefits() {
   return (
-    <section className="px-6 md:px-16 py-32 border-t border-[#222222]">
+    <section className="px-6 md:px-16 py-16 md:py-32 border-t border-[#222222]">
       <div className="mx-auto w-full max-w-7xl">
-        <p className="font-mono text-sm text-[#a0a0a0] tracking-widest mb-12">
+        <p className="font-mono text-sm text-[#a0a0a0] tracking-widest mb-8 md:mb-12">
           03 — BENEFITS
         </p>
-        <h2 className="text-5xl md:text-6xl lg:text-7xl font-light text-white tracking-tight mb-8">
+        <h2 className="text-3xl md:text-5xl lg:text-7xl font-light text-white tracking-tight mb-6 md:mb-8">
           Why Dienst
         </h2>
-        <Separator className="bg-[#222222] mb-20 mt-12" />
+        <Separator className="bg-[#222222] mb-12 md:mb-20 mt-8 md:mt-12" />
         <div className="grid grid-cols-1 md:grid-cols-2 gap-px bg-[#222222]">
           {benefits.map((benefit) => (
             <Card
               key={benefit.title}
               className="bg-[#111111] border-0 hover:bg-[#141414] transition-colors"
             >
-              <CardHeader className="pb-4 pt-12 px-10">
+              <CardHeader className="pb-3 pt-8 px-6 md:pb-4 md:pt-12 md:px-10">
                 <CardTitle className="text-white text-xl font-normal tracking-wide">
                   {benefit.title}
                 </CardTitle>
               </CardHeader>
-              <CardContent className="px-10 pb-12">
+              <CardContent className="px-6 pb-8 md:px-10 md:pb-12">
                 <p className="text-[#a0a0a0] text-lg leading-relaxed">
                   {benefit.description}
                 </p>
