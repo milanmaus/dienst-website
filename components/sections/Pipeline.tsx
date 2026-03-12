@@ -36,7 +36,7 @@ export function Pipeline() {
         </h2>
         <p className="text-lg md:text-2xl text-[#a0a0a0] max-w-3xl mb-12 md:mb-20 leading-relaxed">
           The technical foundation of Dienst: a distributed query layer that
-          connects existing specialist systems – without centralizing data.
+          connects existing specialist systems – fast, efficient and compliant.
         </p>
         <Separator className="bg-[#222222] mb-12 md:mb-20" />
         <div className="grid grid-cols-1 md:grid-cols-3 gap-px bg-[#222222]">
