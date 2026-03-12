@@ -14,7 +14,7 @@ export function Footer() {
             className="hidden md:block h-3 bg-[#333333]"
           />
           <div className="flex gap-6">
-            <a href="#" className="hover:text-[#a0a0a0] transition-colors">
+            <a href="/imprint" className="hover:text-[#a0a0a0] transition-colors">
               Imprint
             </a>
             <a href="#" className="hover:text-[#a0a0a0] transition-colors">
