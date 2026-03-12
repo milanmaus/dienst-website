@@ -12,9 +12,6 @@ export default function ImprintPage() {
       <Navbar />
       <main className="px-6 md:px-16 py-16 md:py-32">
         <div className="mx-auto w-full max-w-3xl">
-          <p className="font-mono text-sm text-[#a0a0a0] tracking-widest mb-8">
-            IMPRINT
-          </p>
           <h1 className="text-3xl md:text-5xl font-light text-white tracking-tight mb-12">
             Imprint
           </h1>
